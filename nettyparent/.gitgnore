@@ -1,0 +1,16 @@
+#filter project file
+*.class
+*.log
+.project
+.classpath
+.settings/
+.DS_Store
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.iml
+target/
+node_modules/
+.idea/
