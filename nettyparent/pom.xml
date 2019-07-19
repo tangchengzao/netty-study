@@ -10,6 +10,8 @@
     <modules>
         <module>netty-ch01-server</module>
         <module>netty-01-client</module>
+        <module>netty-ch04-server</module>
+        <module>nio-socket-ch01</module>
     </modules>
     <packaging>pom</packaging>
 
