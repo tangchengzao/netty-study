@@ -20,7 +20,7 @@
         <project.charset>UTF-8</project.charset>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
-        <netty-all.version>4.0.42.Final</netty-all.version>
+        <netty-all.version>4.1.42.Final</netty-all.version>
     </properties>
 
     <dependencyManagement>
