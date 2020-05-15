@@ -13,6 +13,7 @@
         <module>netty-ch04-server</module>
         <module>nio-socket-ch01</module>
         <module>core-learn</module>
+        <module>netty-test</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -21,6 +22,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
         <netty-all.version>4.0.42.Final</netty-all.version>
+        <junit.version>4.12</junit.version>
     </properties>
 
     <dependencyManagement>
@@ -30,6 +32,13 @@
                 <artifactId>netty-all</artifactId>
                 <version>${netty-all.version}</version>
             </dependency>
+            <!-- https://mvnrepository.com/artifact/junit/junit -->
+            <dependency>
+                <groupId>junit</groupId>
+                <artifactId>junit</artifactId>
+                <version>${junit.version}</version>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 
